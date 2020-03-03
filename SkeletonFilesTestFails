@@ -5,32 +5,45 @@ import static org.junit.Assert.*;
 
 public class SkeletonFilesTestFails {
 
-    private SkeletonFiles test = new SkeletonFiles();
-    
-    
-    @Test
-    public void incorrectSpell ()
-    {
-      	String[] checkString = {"Kennesaw State University"};
-       	String fail0 = "Kenessaw";
-
-      	assertEquals(checkString, test.searchSchoolByName(fail0);
-    }
-
-    @Test
-    public void charSub ()
-    {
-      	String[] checkString = {"Kennesaw State University"};
-      	String fail1 = "K3nn3saw";
+	private SkeletonFiles test = new SkeletonFiles();
 	
-      	assertEquals(checkString, test.searchSchoolByName(fail1);
-    }
-    
-    @Test
-    public void specialChar ()
-    {
-        String[] checkString = {"Kennesaw State University"};
-        String fail2 = "Kennes@w";
-        
-        assertEquals(checkString, test.searchSchoolByName(fail2);
-    }
+	
+	@Test
+	public void incorrectSpell ()
+	{
+		String[] checkString = {"Kennesaw State University"};
+		string fail0 = "Kenessaw";
+		String[] incorrect = test.searchSchoolByName(fail0);
+		
+		assertArrayEquals(checkString, incorrect);
+	}
+	
+	public void charSub ()
+	{
+		String[] checkString = {"Kennesaw State University"};
+		String fail1 = "K3nn3saw";
+		String[] character = test.searchSchoolByName (fail1);
+		
+		asserArrayEquals(checkString, character);
+	}
+	
+	@Test
+	public void specialChar()
+	{
+		String[] chechString = {"Kennesaw State University"};
+		String fail2 = "Kennes@w";
+		String[] special = test.searchSchoolByName (fail2);
+		
+		assertArrayEquals(checkString, special);
+	}
+	
+	@Test
+	public void nonExistent ()
+	{
+		String[] checkString = {"Kennesaw State University, Georgia State University, Georgia Tech, Chattahoochee Tech College"};
+		int fail3 = 30005;
+		String[] nonExist = test.searchSchoolByZip (fail3);
+		
+		assertArrayEquals(checkString, nonExist);
+	}
+}
