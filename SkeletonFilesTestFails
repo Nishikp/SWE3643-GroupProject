@@ -1,0 +1,36 @@
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class SkeletonFilesTestFails {
+
+    private SkeletonFiles test = new SkeletonFiles();
+    
+    
+    @Test
+    public void incorrectSpell ()
+    {
+      	String[] checkString = {"Kennesaw State University"};
+       	String fail0 = "Kenessaw";
+
+      	assertEquals(checkString, test.searchSchoolByName(fail0);
+    }
+
+    @Test
+    public void charSub ()
+    {
+      	String[] checkString = {"Kennesaw State University"};
+      	String fail1 = "K3nn3saw";
+	
+      	assertEquals(checkString, test.searchSchoolByName(fail1);
+    }
+    
+    @Test
+    public void specialChar ()
+    {
+        String[] checkString = {"Kennesaw State University"};
+        String fail2 = "Kennes@w";
+        
+        assertEquals(checkString, test.searchSchoolByName(fail2);
+    }
