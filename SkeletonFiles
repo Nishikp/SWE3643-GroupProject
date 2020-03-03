@@ -1,0 +1,96 @@
+public class SkeletonFiles{
+
+    public String[] searchSchoolsByZip(){
+        return null;
+    }
+
+    public String[] searchSchoolsByName(){
+        return null;
+    }
+
+    public String[] searchSchoolsByState(){
+        return null;
+    }
+
+    public String[] searchSchoolsByCounty(){
+        return null;
+    }
+
+    public String[] searchSchoolsByKeyword(){
+        return null;
+    }
+
+    public String[] searchClassByTitle(){
+        return null;
+    }
+
+    public String[] searchClassBySubject(){
+        return null;
+    }
+
+    public String[] searchClassByDuration(){
+        return null;
+    }
+
+    public String[] searchClassByProfessor(){
+        return null;
+    }
+
+    public String[] searchClassBySchool(){
+        return null;
+    }
+
+    public String[] searchResearchByName(){
+        return null;
+    }
+
+    public String[] searchResearchByTopic(){
+        return null;
+    }
+
+    public String[] searchResearchByProfessor(){
+        return null;
+    }
+
+    public String[] searchResearchBySchool(){
+        return null;
+    }
+
+    public Object displaySchoolInfo(){
+        return null;
+    }
+
+    public Object displayResearchInfo(){
+        return null;
+    }
+
+    public void addCourse(){}
+
+    public void addProject(){}
+
+    public void addStudentToProject(){}
+
+    public void addStaffToProject(){}
+
+    public void addFacultyToProject(){}
+
+    public void getStudent(){}
+
+    public void getStaff(){}
+
+    public void getFaculty(){}
+
+    public String[] matchStudent(){
+        return null;
+    }
+
+    public Object getTotalNetFunding(){
+        return null;
+    }
+
+    public Object getPercentages(){
+        return null;
+    }
+
+    public void createTextFile(){}
+}
