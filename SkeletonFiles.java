@@ -1,0 +1,96 @@
+public class SkeletonFiles{
+
+    public String[] searchSchoolsByZip(int zip){
+        return null;
+    }
+
+    public String[] searchSchoolsByName(String name){
+        return null;
+    }
+
+    public String[] searchSchoolsByState(String state){
+        return null;
+    }
+
+    public String[] searchSchoolsByCounty(String county){
+        return null;
+    }
+
+    public String[] searchSchoolsByKeyword(String keyword){
+        return null;
+    }
+
+    public String[] searchClassByTitle(String title){
+        return null;
+    }
+
+    public String[] searchClassBySubject(String subject){
+        return null;
+    }
+
+    public String[] searchClassByDuration(String duration){
+        return null;
+    }
+
+    public String[] searchClassByProfessor(String prof){
+        return null;
+    }
+
+    public String[] searchClassBySchool(String school){
+        return null;
+    }
+
+    public String[] searchResearchByName(String name){
+        return null;
+    }
+
+    public String[] searchResearchByTopic(String topic){
+        return null;
+    }
+
+    public String[] searchResearchByProfessor(String prof){
+        return null;
+    }
+
+    public String[] searchResearchBySchool(String school){
+        return null;
+    }
+
+    public Object displaySchoolInfo(String name){
+        return null;
+    }
+
+    public Object displayResearchInfo(int research_id){
+        return null;
+    }
+
+    public void addCourse(String course){}
+
+    public void addProject(String project){}
+
+    public void addStudentToProject(String student){}
+
+    public void addStaffToProject(String staff){}
+
+    public void addFacultyToProject(String faculty){}
+
+    public String getStudent(String name){return null;}
+
+    public String getStaff(String name){return null;}
+
+    public String getFaculty(String name){return null;}
+
+    public String[] matchStudent(String name){
+        return null;
+    }
+
+    public Object getTotalNetFunding(int research_id){
+        return null;
+    }
+
+    public Object getPercentages(String name){
+        return null;
+    }
+
+    public void createTextFile(){}
+}
