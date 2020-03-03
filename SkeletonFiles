@@ -1,66 +1,66 @@
 public class SkeletonFiles{
 
-    public String[] searchSchoolsByZip(){
+    public String[] searchSchoolsByZip(int zip){
         return null;
     }
 
-    public String[] searchSchoolsByName(){
+    public String[] searchSchoolsByName(String name){
         return null;
     }
 
-    public String[] searchSchoolsByState(){
+    public String[] searchSchoolsByState(String state){
         return null;
     }
 
-    public String[] searchSchoolsByCounty(){
+    public String[] searchSchoolsByCounty(String county){
         return null;
     }
 
-    public String[] searchSchoolsByKeyword(){
+    public String[] searchSchoolsByKeyword(String keyword){
         return null;
     }
 
-    public String[] searchClassByTitle(){
+    public String[] searchClassByTitle(String title){
         return null;
     }
 
-    public String[] searchClassBySubject(){
+    public String[] searchClassBySubject(String subject){
         return null;
     }
 
-    public String[] searchClassByDuration(){
+    public String[] searchClassByDuration(String duration){
         return null;
     }
 
-    public String[] searchClassByProfessor(){
+    public String[] searchClassByProfessor(String prof){
         return null;
     }
 
-    public String[] searchClassBySchool(){
+    public String[] searchClassBySchool(String school){
         return null;
     }
 
-    public String[] searchResearchByName(){
+    public String[] searchResearchByName(String name){
         return null;
     }
 
-    public String[] searchResearchByTopic(){
+    public String[] searchResearchByTopic(String topic){
         return null;
     }
 
-    public String[] searchResearchByProfessor(){
+    public String[] searchResearchByProfessor(String prof){
         return null;
     }
 
-    public String[] searchResearchBySchool(){
+    public String[] searchResearchBySchool(String school){
         return null;
     }
 
-    public Object displaySchoolInfo(){
+    public Object displaySchoolInfo(String info){
         return null;
     }
 
-    public Object displayResearchInfo(){
+    public Object displayResearchInfo(int research_id){
         return null;
     }
 
