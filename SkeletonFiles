@@ -56,7 +56,7 @@ public class SkeletonFiles{
         return null;
     }
 
-    public Object displaySchoolInfo(String info){
+    public Object displaySchoolInfo(String name){
         return null;
     }
 
@@ -64,31 +64,31 @@ public class SkeletonFiles{
         return null;
     }
 
-    public void addCourse(){}
+    public void addCourse(String course){}
 
-    public void addProject(){}
+    public void addProject(String project){}
 
-    public void addStudentToProject(){}
+    public void addStudentToProject(String student){}
 
-    public void addStaffToProject(){}
+    public void addStaffToProject(String staff){}
 
-    public void addFacultyToProject(){}
+    public void addFacultyToProject(String faculty){}
 
-    public void getStudent(){}
+    public String getStudent(String name){return null;}
 
-    public void getStaff(){}
+    public String getStaff(String name){return null;}
 
-    public void getFaculty(){}
+    public String getFaculty(String name){return null;}
 
-    public String[] matchStudent(){
+    public String[] matchStudent(String name){
         return null;
     }
 
-    public Object getTotalNetFunding(){
+    public Object getTotalNetFunding(int research_id){
         return null;
     }
 
-    public Object getPercentages(){
+    public Object getPercentages(String name){
         return null;
     }
 
